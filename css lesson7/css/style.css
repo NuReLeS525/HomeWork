@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 200;
+  font-style: italic;
+  src: local("Montserrat-SemiBoldItalic"),
+  local("Montserrat SemiBoldItalic"),
+  url("../fonts/Montserrat-SemiBoldItalic.woff2") format('woff2'),
+  url("../fonts/Montserrat-SemiBoldItalic.ttf") format('ttf');
+}
+
+p {
+  font-family: "Montserrat";
+  font-weight: 200;
+  font-style: italic;
+}
