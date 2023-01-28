@@ -1,0 +1,18 @@
+.block {
+  background-color: rgb(212, 141, 189);
+  height: 500px;
+  width: 700px;
+  border: 5px solid #000000
+}
+
+
+.block1:hover {
+  border: 20px solid #c74848;
+  transition-duration: 3s;
+  transition-delay: 2s;
+}
+
+.block2:hover {
+  border: 20px solid #c74848;
+  transition: 3s 2s;
+}
