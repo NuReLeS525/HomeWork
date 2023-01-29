@@ -1,0 +1,23 @@
+.wrap {
+  padding: 5px 100px 5px;
+}
+
+.block__1 {
+  height: 700px;
+  width: 100%;
+  margin-bottom: 100px;
+  box-shadow: 0 0 10px rgb(61 30 30);
+  border-radius: 10px;
+  background: url(https://picsum.photos/seed/picsum/200/300) 50% 50% no-repeat, linear-gradient(rgb(208, 195, 195), rgb(31, 83, 101));
+}
+
+.block__2 {
+  height: 700px;
+  width: 100%;
+  margin-bottom: 100px;
+  box-shadow: 0 0 10px rgb(61 30 30);
+  border-radius: 10px;
+  background-image: url(https://picsum.photos/200/300?grayscale), linear-gradient(white, black);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
