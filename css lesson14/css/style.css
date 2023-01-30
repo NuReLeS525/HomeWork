@@ -1,0 +1,17 @@
+.flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px;
+  height: 300px;
+  border: black solid 10px;
+  background-color: brown;
+}
+
+.flexbox__item {
+  width: 10%;
+  height: 100px;
+  background-color: blanchedalmond;
+  border: 3px solid burlywood;
+  text-align: center;
+}

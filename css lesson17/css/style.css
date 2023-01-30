@@ -1,0 +1,31 @@
+.wrapper {
+  padding: 10px;
+  height: 500px;
+  background-color: grey;
+}
+
+.title {
+  display: block;
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  border-radius: 1em;
+}
+
+.title::before {
+  content: "";
+  display: block;
+  background-color: rgb(92, 68, 226);
+  height: 100px;
+  width: 100px;
+  border-radius: 1em;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  background-color: rgb(253, 49, 49);
+  height: 100px;
+  width: 100px;
+  border-radius: 1em;
+}
