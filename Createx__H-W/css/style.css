@@ -1754,7 +1754,7 @@ html, body {
     background-color: #424551;
     border-radius: 3px;
     margin: 4px 0;
-    translate: all .3s;
+    transition: all .3s;
   }
 
   .burger::before,
@@ -1770,6 +1770,7 @@ html, body {
 
   .burger--cross span {
     opacity: 0;
+    width: 0%;
     transition: all .3s;
   }
 
